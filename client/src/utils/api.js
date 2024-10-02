@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 
 // Create an Axios instance
 export const api = axios.create({
-  baseURL: "http://localhost:8000/api", // Use http for local testing
+  baseURL: "https://full-stack-real-estate-livid.vercel.app/api", // Use http for local testing
 });
 
 // Function to get all properties
