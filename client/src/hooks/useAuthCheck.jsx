@@ -1,6 +1,8 @@
 import {useAuth0} from '@auth0/auth0-react'
 import { toast } from "react-toastify";
 
+toast.dismiss();
+
 
 const useAuthCheck = () => {
 
